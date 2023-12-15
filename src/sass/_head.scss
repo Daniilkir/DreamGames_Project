@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+.logo_head{
+    margin-left: 335px;
+}
+select{
+border: none;
+width: 135px;
+height: 20px;
+justify-content: center;
+margin-left: 100px;
+}
+.team{
+    margin-left: 60px;
+}
+.contacts{
+  margin-left: 60px
+}

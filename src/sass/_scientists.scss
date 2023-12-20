@@ -18,23 +18,43 @@
 }
 
 .ul-scien {
-    // gap: 36px;
+    gap: 36px;
     display: flex;
     
-    // justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    // margin: 36px 256px;
+    margin: 0px 400px;
     padding-left: 0;
     list-style: none;
     width: 580px;
-    gap: 36px 30px;
+    gap: 36px 60px;
 }
 
 .li-scien {
     border-radius: 20px;
     width: 100px;
     height: 100px;
+    background-color: #D9D9D9;
+}
+
+.item-name {
+    color: #000;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 13.6px */
+    padding-top: 20px;
+}
+
+.item-year {
+    color: #000;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 13.6px */
 }
 // ======================================================
 .scien-ask {
@@ -42,15 +62,23 @@
     justify-content: center;
 }
 
+.wrap-list2 {
+    padding-left: 100px;
+}
+
 .list-ask {
     list-style: none;
-    // padding: 0;
+    padding: 0;
 }
 
 .item-ask1 {
     display: flex;
     justify-content: flex-end;
-    // margin-right: 36px;
+}
+
+.list-ask2 {
+    margin-left: 36px;
+
 }
 
 .item-ask {
@@ -68,7 +96,7 @@
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
 
     color: #FFF;
-    text-align: right;
+    text-align: left;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;

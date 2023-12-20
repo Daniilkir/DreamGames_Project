@@ -1,5 +1,5 @@
 
-import scientists  from "../js_parts/scients-profiles.js"
+import scientists  from "./scients-profiles"
 
 // ==========cards=============
 

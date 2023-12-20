@@ -12,7 +12,7 @@ document.getElementById('guess-button-js').addEventListener('click', function ()
         correct.style.color = 'red'
         correct.textContent = `Введіть число!`;
         } else {
-        if (playerGuess === secretNumber) {
+        if (Number(playerGuess) === secretNumber) {
             correct.textContent = `Вітаю, ви вгадали число!  ${secretNumber}.`;
             correct.style.color = 'green'
             secretNumber = generateRandomNumber();

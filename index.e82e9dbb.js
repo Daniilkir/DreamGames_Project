@@ -1,2 +1,0 @@
-document.getElementById("check-button-js").addEventListener("click",(function(){var e=parseInt(document.getElementById("year4-js").value),t=document.querySelector(".result-year4");if(e>=1900&&e<=2023){var n=e%4==0,r=document.querySelector(".result-year4");n?(r.textContent="Ваш рік народження є високосним.",r.style.color="green"):(r.textContent="Ваш рік народження не є високосним.",r.style.color="red")}else t.textContent="Введіть рік в діапазоні від 1900 до 2023",t.style.color="red"}));
-//# sourceMappingURL=index.e82e9dbb.js.map

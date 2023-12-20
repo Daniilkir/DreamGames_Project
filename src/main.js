@@ -1,0 +1,6 @@
+import"./js_parts/first_game"
+import"./js_parts/guess_num"
+import"./js_parts/time_calc"
+import"./js_parts/numbers3"
+import"./js_parts/scients"
+import"./js_parts/header"

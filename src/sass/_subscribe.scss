@@ -23,11 +23,19 @@
 }
 
 
-.wrap-closeBtn {
+.close-btn {
     margin-left:auto;
-    width: 15px;
-    height: 15px;
-    // margin-bottom: 24px;
+    display: flex;
+    justify-content: end;
+    color: #aaa;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
 }
 
 .sword, .tictactoe, .games, .puzzle {

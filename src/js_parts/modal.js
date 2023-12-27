@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById('myModal');
     const closeModalButton = document.getElementById('closeModal');
     const saveButton = document.getElementById('saveButton');
+    const p = document.getElementById('pech')
+    const pe = document.getElementById('usa')
 
     modal.style.display = 'block';
 
@@ -19,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function saveName() {
         const userName = document.getElementById('userName').value;
-        alert('Ваше ім\'я: ' + userName);
+        p.textContent = `Вітаємо, ${userName}`;
+        pe.textContent = userName
         closeModal();
     }
 });

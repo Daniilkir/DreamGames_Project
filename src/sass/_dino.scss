@@ -2,18 +2,18 @@
     border-bottom: 1.5px solid black;
     margin: auto;
     margin-top: 15px;
-    height: 300px;
+    height: 200px;
     width: 600px;
 }
 
 #dino {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-image: url(../img/photo_2023-12-22_05-21-50.jpg);
     background-size: 40px 40px;
     background-repeat: no-repeat;
     position: relative;
-    top: 255px;
+    top: 90px;
 }
 
 .dinoRun {
@@ -40,7 +40,7 @@
     background-size: 20px 40px;
     background-repeat: no-repeat;
     position: relative;
-    top: 205px;
+    top: 49;
     left: 579px;
 }
 
@@ -58,17 +58,20 @@
 }
 
 .jump {
-    animation: jump 0.75s linear;
+    animation: jump 0.5s linear;
 }
 
 @keyframes jump  {
     0% {
-        top: 255px;
+        top: 90;
     }
-    50% {
-        top: 189px;
+    40% {
+        top: 20px;
+    }
+    60% {
+        top: 20px;
     }
     100% {
-        top: 255px;
+        top: 90;
     }
 }

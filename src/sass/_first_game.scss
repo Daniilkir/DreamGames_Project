@@ -24,7 +24,8 @@ body {
 .button-year4 {
   display: flex;
   align-items: center; 
-  margin-left: 130px;
+  position: absolute;
+  right: 55px;
 }
 
 .year4 {
@@ -37,7 +38,6 @@ body {
   font-size: 18px;
   padding: 10px;
   box-shadow: 3px 3px 3px gray;
-  margin-right: 140px;
 }
 
 .check-button {
@@ -49,7 +49,6 @@ body {
   font-size: 16px;
   width: 55px;
   box-shadow: 3px 3px 3px gray;
-  margin-left: -190px;
 }
 
 .icon-search {

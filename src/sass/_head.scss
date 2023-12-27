@@ -11,7 +11,12 @@ text-decoration:none;
 .header {
   display: flex;
   align-items: center;
+  justify-items: center;
   margin-top: 32px;
+  gap: 20px;
+  width: fit-content;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .logo_head {
@@ -20,20 +25,16 @@ text-decoration:none;
 
 
 .team {
-  margin-left: 5px;
   color: #000;
-
 }
 
 .contacts {
-  margin-left: 60px;
   color: #000;
 }
 
 .custom-select {
   position: relative;
   font-family: 'Montserrat Alternates';
-  margin-left: 81px; 
 }
 
 .custom-select select {
@@ -84,4 +85,9 @@ text-decoration:none;
 .select-items div:hover,
 .same-as-selected {
   background-color: #ccc;
+}
+
+.header {
+  justify-items: center;
+  text-align: center;
 }

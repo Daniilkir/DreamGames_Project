@@ -47,6 +47,7 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 30px;
+    margin-bottom: 18px;
 }
 
 .close:hover,
@@ -55,6 +56,34 @@
     text-decoration: none;
 }
 
+.img1 {
+    position: relative;
+    left: 590px;
+    bottom: 140px;
+    width: 30px;
+    height: 30px;
+}
+
+.img2 {
+    position: relative;
+    left: 550px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+}
+.img3 {
+    position: relative;
+    bottom: 140px;
+    width: 30px;
+    height:30px;
+}
+.img4{
+    position: relative;
+    left: 100px;
+    width: 30px;
+    height:30px;
+    bottom: 30px;
+}
 .text_cont {
     color: #000;
     text-align: center;
@@ -63,8 +92,22 @@
     font-weight: 400;
     line-height: normal;
 }
-.entering{
+
+.entering {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#saveButton {
+    margin-top: 20px;
+    color: white;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    border: none;
 }

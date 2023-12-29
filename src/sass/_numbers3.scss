@@ -22,7 +22,6 @@
 
 .item-3numbers {
     border: none;
-
     padding: 10px 20px;
     align-items: flex-start;
     border-radius: 20px;
@@ -30,6 +29,20 @@
     background: #D7D7D7;
     width: 175px;
     height: 35px;
+}
+
+.btn-3numbers {
+    display: block;
+    height: 35px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 26px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 36px auto;
 }
 
 .p-3numbers {

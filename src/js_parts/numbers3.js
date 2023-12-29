@@ -8,13 +8,7 @@ const button = document.querySelector(".btn-3numbers")
 button.addEventListener("click", findMaxNumber)
 
 function findMaxNumber() {
-    const array = [number1.value, number2.value, number3.value]
-    let maxNumber = 0
-    for (let i = 0; i < array.length; i+=1) {
-        if (array[i] > maxNumber) {
-            maxNumber = array[i]
-        }      
-    }
+    const maxNumber = Math.max(number1.value, number2.value, number3.value)
     maxNumberSpan.textContent = maxNumber
 }
 

@@ -18,16 +18,19 @@
     justify-content: center;
     gap: 38px;
     margin-top: 36px;
+
 }
 
 .item-3numbers {
+    outline: none;
+    text-align: center;
     border: none;
     padding: 10px 20px;
     align-items: flex-start;
     border-radius: 20px;
     border-color: #D7D7D7;
     background: #D7D7D7;
-    width: 175px;
+    width: 182px;
     height: 35px;
 }
 

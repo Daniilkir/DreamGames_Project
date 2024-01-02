@@ -1,0 +1,58 @@
+.tIn {
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border-radius: 26px;
+    background-color: #00000040;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 3px 3px 3px gray;
+    margin-left: 170px;
+}
+.tB{
+    display: flex;
+    align-items: center; 
+    margin-left: 270px;
+    margin-bottom: 36px;
+}
+.tP{
+    margin-left: 35px;
+}
+.tI{
+margin-left: 20px;
+}
+.tTitle {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.icon-searc {
+    fill: white;
+    width: 84px;
+    height: 84px;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.tBut {
+    position: relative;
+    cursor: pointer;
+    background-color: #000000;
+    border: none;
+    height: 50px;
+    border-radius: 0 20px 20px 0px;
+    font-size: 16px;
+    width: 55px;
+    box-shadow: 3px 3px 3px gray;
+    right: 20px;
+}

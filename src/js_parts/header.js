@@ -16,30 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         for (let j = 1; j < ll; j++) {
             const c = document.createElement("DIV");
-            c.innerHTML = selElmnt.options[j].innerHTML;
+            const optionText = selElmnt.options[j].innerHTML;
+            const optionValues = selElmnt.options[j].value.split(" ");
+
+            c.innerHTML = optionText;
 
             c.addEventListener("click", function (e) {
-                const y = this.parentNode.parentNode.getElementsByTagName("select")[0];
-                const sl = y.length;
-                const h = this.parentNode.previousSibling;
-
-                for (let k = 0; k < sl; k++) {
-                    if (y.options[k].innerHTML == this.innerHTML) {
-                        y.selectedIndex = k;
-                        h.innerHTML = this.innerHTML;
-
-                        const sameAsSelected = this.parentNode.getElementsByClassName("same-as-selected");
-                        const yl = sameAsSelected.length;
-
-                        for (let m = 0; m < yl; m++) {
-                            sameAsSelected[m].removeAttribute("class");
-                        }
-
-                        this.setAttribute("class", "same-as-selected");
-                        break;
-                    }
-                }
-                h.click();
+                const selectedLink = getRandomLink(optionValues);
+                window.location.href = selectedLink;
             });
 
             b.appendChild(c);
@@ -53,6 +37,11 @@ document.addEventListener("DOMContentLoaded", function () {
             this.nextSibling.classList.toggle("select-hide");
             this.classList.toggle("select-arrow-active");
         });
+    }
+
+    function getRandomLink(links) {
+        const randomIndex = Math.floor(Math.random() * links.length);
+        return links[randomIndex];
     }
 
     function closeAllSelect(elmnt) {

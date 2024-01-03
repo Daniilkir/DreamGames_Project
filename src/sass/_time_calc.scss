@@ -22,6 +22,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 36px;
+    margin-left: 111px;
   }
   
   .tIn {
@@ -36,7 +37,9 @@
     box-shadow: 3px 3px 3px gray;
     
   }
-  
+  .tI{
+    margin-left: 35px;
+  }
   .tBut {
     cursor: pointer;
     background-color: #000000;
@@ -57,12 +60,10 @@
     margin-left: 5px;
     margin-top: 8px;
   }
-  
-  .tI {
-        margin-left: 35px;
-  }
-  
+
   .tP {
-    margin-left: 35px;
+    margin-left: 15px;
+    width: 350px;
+    text-align: center;
   }
   

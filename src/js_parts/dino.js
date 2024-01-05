@@ -1,3 +1,15 @@
+const dino = document.querySelector("#dino");
+const cactus = document.querySelector("#cactus");
+const game = document.querySelector(".Gdino");
+let isBtnPres = true;
+
+game.addEventListener("click", ()=> {
+    startGame()
+    jump();
+    isBtnPres = false
+})
+
+
 function startGame () {
     cactus.classList.add("cactusMove");
     dino.classList.add("dinoRun");
